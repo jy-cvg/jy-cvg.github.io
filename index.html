@@ -1,132 +1,303 @@
 <!DOCTYPE html>
-<html lang="ko">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>자기소개서</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-        }
-        .container {
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 20px;
-            background-color: #fff;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-        h1, h2 {
-            text-align: center;
-            color: #333;
-        }
-        .section {
-            margin-bottom: 20px;
-        }
-        .section-title {
-            font-size: 1.2em;
-            margin-bottom: 10px;
-            color: #555;
-        }
-        .section-content {
-            padding: 10px;
-            background-color: #fafafa;
-            border-left: 5px solid #007BFF;
-        }
-        .button {
-            display: inline-block;
-            padding: 10px 20px;
-            margin: 10px 0;
-            font-size: 1em;
-            color: #fff;
-            background-color: #007BFF;
-            border: none;
-            border-radius: 5px;
-            text-align: center;
-            cursor: pointer;
-            text-decoration: none;
-        }
-        .button:hover {
-            background-color: #0056b3;
-        }
-    </style>
+    <meta property="og:image" content="./images/home.jpg">
+    <meta property="og:title" content="박주영 자기소개페이지">
+    <meta property="og:description" content="Wecode 1주차 [자기소개페이지 만들기] 과제 제출용 페이지입니다.">
+    <link rel="shortcut icon" href="images/lemon.ico">
+    <title>Wecode 33기 박주영입니다</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 </head>
 <body>
-    <div class="container">
-        <h1>자기소개서</h1>
-
-        <div class="section">
-            <h2 class="section-title">개인 정보</h2>
-            <div class="section-content">
-                <p><strong>이름:</strong> 홍길동</p>
-                <p><strong>생년월일:</strong> 1990년 1월 1일</p>
-                <p><strong>연락처:</strong> 010-1234-5678</p>
-                <p><strong>이메일:</strong> honggildong@example.com</p>
-                <a href="contact.html" class="button">더 많은 연락처 정보</a>
-            </div>
+    <div class="loading_container">
+        <div class="loading_box">
+            <p class="loading">🍋</p>
+            <p>Loading</p>
         </div>
-
-        <div class="section">
-            <h2 class="section-title">학력</h2>
-            <div class="section-content">
-                <p><strong>대학교:</strong> 서울대학교</p>
-                <p><strong>전공:</strong> 컴퓨터 공학</p>
-                <p><strong>졸업년도:</strong> 2014년</p>
-            </div>
-        </div>
-
-        <div class="section">
-            <h2 class="section-title">경력</h2>
-            <div class="section-content">
-                <p><strong>회사명:</strong> ABC 테크놀로지</p>
-                <p><strong>직책:</strong> 소프트웨어 엔지니어</p>
-                <p><strong>근무기간:</strong> 2014년 3월 - 현재</p>
-                <p><strong>업무 내용:</strong></p>
-                <ul>
-                    <li>웹 애플리케이션 개발</li>
-                    <li>데이터베이스 관리</li>
-                    <li>프로젝트 관리</li>
-                </ul>
-            </div>
-        </div>
-
-        <div class="section">
-            <h2 class="section-title">자기 소개</h2>
-            <div class="section-content">
-                <p>
-                    안녕하세요, 홍길동입니다. 저는 서울대학교에서 컴퓨터 공학을 전공하고, ABC 테크놀로지에서 10년 넘게 소프트웨어 엔지니어로 일하고 있습니다. 
-                    웹 애플리케이션 개발과 데이터베이스 관리를 주로 담당하며, 프로젝트 관리 경험도 가지고 있습니다. 
-                    끊임없이 학습하고 발전하는 것을 목표로 하고 있으며, 항상 최선을 다해 업무에 임하고 있습니다.
-                </p>
-            </div>
-        </div>
-
-        <div class="section">
-            <h2 class="section-title">기술 스킬</h2>
-            <div class="section-content">
-                <ul>
-                    <li>프로그래밍 언어: Java, Python, JavaScript</li>
-                    <li>웹 기술: HTML, CSS, React</li>
-                    <li>데이터베이스: MySQL, MongoDB</li>
-                    <li>기타: Git, Docker, AWS</li>
-                </ul>
-            </div>
-        </div>
-
-        <div class="section">
-            <h2 class="section-title">취미 및 관심사</h2>
-            <div class="section-content">
-                <p>
-                    저는 새로운 기술을 배우고, 오픈 소스 프로젝트에 기여하는 것을 좋아합니다. 
-                    또한, 여행과 사진 촬영을 즐기며, 다양한 문화를 경험하고 기록하는 것을 좋아합니다.
-                </p>
-            </div>
-        </div>
-
-        <a href="resume.pdf" download class="button">이력서 다운로드</a>
     </div>
+
+    <header>
+        <h1 class="blind">박주영 자기소개서</h1>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#home">🍋<span class="tooltip-text">Home</span></a>
+                </li>
+                <li>
+                    <a href="#about">🍋<span class="tooltip-text">About</span></a>
+                </li>
+                <li>
+                    <a href="#favorite">🍋<span class="tooltip-text">Favorite</span></a>
+                </li>
+                <li>
+                    <a href="#goal">🍋<span class="tooltip-text">Goal</span></a>
+                </li>
+                <li>
+                    <a href="#contact">🍋<span class="tooltip-text">Contact</span></a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="container">
+            <section id="home">
+                <div class="title">
+                    <h1></h1>
+                    <p>안녕하세요 제 이름은 박주영 입니다. 33기 여러분 만나서 반가워요 :)</p>
+                </div>
+                <div class="scroll">
+                    <a href="#about"><span></span></a>
+                    <p>Scroll</p>
+                </div>
+            </section>
+
+            <section id="about">
+                <div class="category">
+                    <h2>about</h2>
+                </div>
+
+                <div class="about_profile">
+                    <div class="img_box">
+                        <img src="images/profile.jpg" alt="프로필 사진">
+                    </div>
+                    <div class="introduction">
+                        <ul class="desc_box1">
+                            <li>
+                                <div>
+                                    <p>박주영</p>
+                                    <p>이름</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div>
+                                    <p>1995.06.08</p>
+                                    <p>생년월일</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div>
+                                    <p>하남</p>
+                                    <p>거주지</p>
+                                </div>
+                            </li>
+                        </ul>
+                        <div class="desc_box2">
+                            <span>010-4063-9970</span>
+                            <span>📱</span>
+                        </div>
+                        <div class="desc_box2">   
+                            <span>miqkrwndud39@gmail.com</span>
+                            <span>📧</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="property">
+                    <div class="property_box">
+                        <div class="poster">
+                            <h2>레몬백작</h2>
+                            <figure class="item">
+                                <img src="./images/lemonicon.jpg" alt="">
+                                <p>별명</p>
+                            </figure>
+                        </div>
+                    </div>
+                    <div class="property_box">
+                        <div class="poster">
+                            <h2>제과제빵</h2>
+                            <figure class="item">
+                                <img src="./images/bread.png" alt="">
+                                <p>전공</p>
+                            </figure>
+                        </div>
+                    </div>
+                    <div class="property_box">
+                        <div class="poster">
+                            <h2>ISFJ</h2>
+                            <figure class="item">
+                                <img src="./images/mbti.png" alt="">
+                                <p>MBTI</p>
+                            </figure>
+                        </div>
+                    </div>
+                    <div class="property_box">
+                        <div class="poster butterfly">
+                            <figure class="item">
+                                <img src="./images/butterfly_b.png" alt="">
+                            </figure>
+                        </div>
+                    </div>
+                    <div class="property_box">
+                        <div class="poster butterfly">
+                            <figure class="item">
+                                <img src="./images/butterfly_p.png" alt="">
+                            </figure>
+                        </div>
+                    </div>
+                    <div class="property_box">
+                        <div class="poster butterfly">
+                            <figure class="item">
+                                <img src="./images/butterfly_b.png" alt="">
+                            </figure>
+                        </div>
+                    </div>
+                    <div class="property_box">
+                        <div class="poster butterfly">
+                            <figure class="item">
+                                <img src="./images/butterfly_p.png" alt="">
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+            </section>
+    
+            <section id="favorite">
+                <div class="category">
+                    <h2>favorite</h2>
+                    <p>제가 좋아하는 것들은요..</p>
+                </div>
+                <div class="slide_warp">
+                    <ul class="slides">
+                        <li>
+                            <div class="slide_img_box">
+                                <img src="images/favorite_escape.jpg" alt="방탈출">
+                            </div>
+                            <div class="slide_text_box">
+                                <span>01</span>
+                                <p class="title">방탈출🗝️</p>
+                                <p class="desc">현재 139개 체험 완료! 여러가지 테마를<br> 하면서 다양한 경험을 할 수 있어서 좋아요!</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="slide_img_box">
+                                <img src="images/favorite_coffee.jpg" alt="방탈출">
+                            </div>
+                            <div class="slide_text_box">
+                                <span>02</span>
+                                <p class="title">커피☕</p>
+                                <p class="desc">
+                                    하루에 한잔은 필수! 많은 먹을 땐 4잔도 먹습니다..ㅎㅎ 
+                                    커피를 먹어야 하루가 깨는 느낌은 저만 그런가요?!
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="slide_img_box">
+                                <img src="images/favorite_cat.jpg" alt="방탈출">
+                            </div>
+                            <div class="slide_text_box">
+                                <span>03</span>
+                                <p class="title">고양이🐱</p>
+                                <p class="desc">귀여운게 세상을 지배합니다. 도도하지만 가끔 애교부리는 모습이 너무 매력적이라서 좋아요.</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="slide_img_box">
+                                <img src="images/favorite_food.gif" alt="방탈출">
+                            </div>
+                            <div class="slide_text_box">
+                                <span>04</span>
+                                <p class="title">음식🍽️</p>
+                                <p class="desc">먹는걸 너~무 좋아해요! 주로 매운 안주에 맥주를 마시며 하루를 마무리하면 너무 행복해요!</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="slide_img_box">
+                                <img src="images/favorite_exhibition.jpg" alt="방탈출">
+                            </div>
+                            <div class="slide_text_box">
+                                <span>05</span>
+                                <p class="title">전시회🖼️</p>
+                                <p class="desc">사진 속 전시회는 [앨리스 달튼 브라운]입니다! 가장 최근에는 [미니어처 라이프 서울]에 다녀왔는데 너무 좋았어요!</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="slide_img_box">
+                                <img src="images/favorite_study.jpg" alt="방탈출">
+                            </div>
+                            <div class="slide_text_box">
+                                <span>06</span>
+                                <p class="title">새로운거 배우기</p>
+                                <p class="desc">주로 원데이클래스랑 단기로 배우는 것을 좋아해요! 다양한 경험을 하고 새로운 분야를 배우는 건 저에겐 언제나 설레는 일입니다! 코딩을 처음 접했던 것도 단기 과외였답니다.</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="slide_img_box">
+                                <img src="images/favorite_ott.jpg" alt="방탈출">
+                            </div>
+                            <div class="slide_text_box">
+                                <span>07</span>
+                                <p class="title">누워서 OTT 보기🎞️</p>
+                                <p class="desc">누워서 OTT로 좋아하는 드라마, 영화 보는건 너무 행복해요! 넷플릭스 최고!</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <p class="controls">
+                    <span class="prev">🌹</span>
+                    <span class="next">🌹</span>
+                </p>
+            </section>
+
+            <section id="goal">
+                <div class="category">
+                    <h2>goal</h2>
+                    <p>위코드에서 저는..</p>
+                </div>
+                <ul class="goal_box">
+                    <li class="goal_detail goal_detail_1">
+                        <div class="goal_detaile_imgbox">
+                        </div>
+                        <div class="goal_detaile_desc">
+                            <p>#코드 능력 향상</p>
+                        </div>
+                    </li>
+                    <li class="goal_detail goal_detail_2">
+                        <div class="goal_detaile_imgbox">
+                        </div>
+                        <div class="goal_detaile_desc">
+                            <p>#흥미 찾기</p>
+                            <p>더 재밌게 코드<br>공부하기</p>
+                        </div>
+                    </li>
+                    <li class="goal_detail goal_detail_3">
+                        <div class="goal_detaile_imgbox">
+                        </div>
+                        <div class="goal_detaile_desc">
+                            <p>#함께하고싶은<br>개발자로 성장하기</p>
+                        </div>
+                    </li>
+                </ul>
+            </section>
+
+            <section id="contact">
+                <div class="container">
+                    <div class="category">
+                        <h2>contact</h2>
+                    </div>
+                    <div class="link">
+                        <ul>
+                            <li><a href="https://www.instagram.com/p__jooyoung/" target="_blank">Instagram</a></li>
+                            <li><a href="https://velog.io/@remon" target="_blank">Velog</a></li>
+                            <li><a href="https://github.com/parkjooyoung0608" target="_blank">Github</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <p>* 상업적으로 사용하지 않는 과제 제출용 페이지 입니다 *</p>
+    </footer>
+
+    <script src="js/loading.js"></script>
+    <script src="js/main.js"></script>
 </body>
 </html>
