@@ -1,274 +1,113 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Stella Kim 🍒</title>
-    <link rel = "stylesheet" href = "./css/main.css">
-    <link rel = "stylesheet" href = "./css/scroll.css">
+    <title>자기소개서</title>
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2 {
+            text-align: center;
+            color: #333;
+        }
+        .section {
+            margin-bottom: 20px;
+        }
+        .section-title {
+            font-size: 1.2em;
+            margin-bottom: 10px;
+            color: #555;
+        }
+        .section-content {
+            padding: 10px;
+            background-color: #fafafa;
+            border-left: 5px solid #007BFF;
+        }
     </style>
 </head>
 <body>
+    <div class="container">
+        <h1>자기소개서</h1>
 
-<div id="container">
-    <header id = "header"> 
-        <nav class ="menu">
-            <ul>
-                <li><a href = "index.html" <b>Home</b></a></li>
-                <li><a href = "about.html" <b>About</b></a></li>
-                <li><a href = "favorites.html" <b>What I love</b></a></li>
-                <li><a href = "contact.html" <b>Contact</b></a></li>
-            </ul>
-        </nav>
-    </header> 
-  <div class="list">
-      <div class="one">
-        <span class="profile"><img src="./imgs/me.jpg" width="550px;" height="550px" alt=""/></span> 
-        <h3><strong>Hello! I'm Stella.</strong> <br>You can scroll down if you want to see me more!</h3>
-      </div>
-  </div>
+        <div class="section">
+            <h2 class="section-title">개인 정보</h2>
+            <div class="section-content">
+                <p><strong>이름:</strong> 홍길동</p>
+                <p><strong>생년월일:</strong> 1990년 1월 1일</p>
+                <p><strong>연락처:</strong> 010-1234-5678</p>
+                <p><strong>이메일:</strong> honggildong@example.com</p>
+            </div>
+        </div>
 
-  <div class="list">
-      <div class ="two">
-          <img class = "me" src ="./imgs/me2.jpg" alt="" width="450px;" height="500px">
-          <h3 class ="intext"> <strong>What would I lose if I learn coding?<br>Absoultely nothing!</strong><br><br>
-            Hello! I'm Stella Kim. Welcome to my homepage.<br>
-            I majored in English and worked as a hotelier in Singapore. <br>
-            After I came back to Korea, I was also in the service fields. <br>
-            But I don't want to see myself in the same industry in the few years. <br>
-            The reason I want to be a fullstack engineer is that <br>
-            there is no limits for studying and developing myself! <br>
-            Achievement is one of my motivation of my life. <br><br>
-            To be a great developer, <br>
-            achievement and developing myself constantly <br>
-            is the most important thing, I think.
-            <br><br>
-            For the future junior developer!</h3>
-      </div>
-  </div>
-  
-  <div class="list">
-      <div class="three">
-          <h1><br><br> 💕 💕 💕 </h1>
-          <div class = "favorites">
-              <div class="lists">
-                  <img class = "list_img" src="./imgs/what i love/mypet.jpg" alt="">
-                  <p class = "list_text"> 반려견 두부를 포함한<br>모든 강아지! 🐶</p>
-              </div>
+        <div class="section">
+            <h2 class="section-title">학력</h2>
+            <div class="section-content">
+                <p><strong>대학교:</strong> 서울대학교</p>
+                <p><strong>전공:</strong> 컴퓨터 공학</p>
+                <p><strong>졸업년도:</strong> 2014년</p>
+            </div>
+        </div>
 
-              <div class="lists">
-                  <img class = "list_img" src="./imgs/what i love/coffee.jpg" alt="">
-                  <p class = "list_text"> Coffee ☕</p>
-              </div>
+        <div class="section">
+            <h2 class="section-title">경력</h2>
+            <div class="section-content">
+                <p><strong>회사명:</strong> ABC 테크놀로지</p>
+                <p><strong>직책:</strong> 소프트웨어 엔지니어</p>
+                <p><strong>근무기간:</strong> 2014년 3월 - 현재</p>
+                <p><strong>업무 내용:</strong></p>
+                <ul>
+                    <li>웹 애플리케이션 개발</li>
+                    <li>데이터베이스 관리</li>
+                    <li>프로젝트 관리</li>
+                </ul>
+            </div>
+        </div>
 
-              <div class="lists">
-                  <img class = "list_img" src="./imgs/what i love/walking.jpg" alt="">
-                  <p class = "list_text"> 산책도 즐기고 🏃🏻‍♂️</p>
-              </div>
+        <div class="section">
+            <h2 class="section-title">자기 소개</h2>
+            <div class="section-content">
+                <p>
+                    안녕하세요, 홍길동입니다. 저는 서울대학교에서 컴퓨터 공학을 전공하고, ABC 테크놀로지에서 10년 넘게 소프트웨어 엔지니어로 일하고 있습니다. 
+                    웹 애플리케이션 개발과 데이터베이스 관리를 주로 담당하며, 프로젝트 관리 경험도 가지고 있습니다. 
+                    끊임없이 학습하고 발전하는 것을 목표로 하고 있으며, 항상 최선을 다해 업무에 임하고 있습니다.
+                </p>
+            </div>
+        </div>
 
-              <div class="lists">
-                  <img class = "list_img" src="./imgs/what i love/traveling.jpg" alt="">
-                  <p class = "list_text"> 여행도 좋아해요! 💕</p>
-              </div>
-          </div>
-      </div>
-  </div>
+        <div class="section">
+            <h2 class="section-title">기술 스킬</h2>
+            <div class="section-content">
+                <ul>
+                    <li>프로그래밍 언어: Java, Python, JavaScript</li>
+                    <li>웹 기술: HTML, CSS, React</li>
+                    <li>데이터베이스: MySQL, MongoDB</li>
+                    <li>기타: Git, Docker, AWS</li>
+                </ul>
+            </div>
+        </div>
 
-  <div class="list">
-      <div class = "four">
-          <img class = "contact_img" src ="./imgs/bg.jpg">
-          <a href="https://velog.io/@subtitle1" class="ct">Velog</a>
-          <a href="mailto:stella.kim.96211@gmail.com" class="ct">Gmail</a>
-          <a href="https://github.com/subtitle1" class="ct">Github</a>
-      </div>
-  </div>
-<div>
+        <div class="section">
+            <h2 class="section-title">취미 및 관심사</h2>
+            <div class="section-content">
+                <p>
+                    저는 새로운 기술을 배우고, 오픈 소스 프로젝트에 기여하는 것을 좋아합니다. 
+                    또한, 여행과 사진 촬영을 즐기며, 다양한 문화를 경험하고 기록하는 것을 좋아합니다.
+                </p>
+            </div>
+        </div>
+    </div>
 </body>
-
-  h3 {
-    font-family: 'Pretendard-Thin';
-    color: #ffffff;
-    text-align: center;
-    font-style: italic;
-    font-weight: lighter;
-    margin-top: 50px;
-    font-size: 20px;
-}
-
-/* 상단바 */
-
-.menu * {
-    display: inline;
-}
-
-.menu li {
-    margin: 35px;
-}
-
-.menu li a {
-    color: rgb(255, 255, 255);
-    text-decoration: none;
-}
-
-.menu ul {
-    padding-left: 0px;
-}
-
-.menu {
-    font-size: 20px;
-    font-style: italic;
-    align-items: center;
-    text-align: center;
-    padding-top: 80px;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    height: 80px;
-} 
-
-/* page 1 */
-
-.one {
-    background-size: cover;
-    text-align: center;
-    padding-top: 180px;
-    padding-bottom: 130px;
-}
-
-.profile {
-    border-radius: 30%;
-    display: inline-block;
-    padding: 0.5rem;
-    margin-top: 20px;
-    border: 1px solid gray;
-    background-color: rgba(255, 255, 255, 0.1);
-    border: 1px solid rgb(255, 255, 255, 0.5);
-}
-
-.profile img {
-    border-radius: 30%;
-}
-
-/* page 2 */
-
-.intext {
-    float: right;
-    margin-top: 35px;
-    padding-left: 50px;
-}
-
-/* page 3 */
-
-h1 {
-    text-align: center;
-}
-
-.lists{
-    text-align: center;
-    font-family: 'Pretendard-Thin';
-    display: block;
-    text-align: center;
-    font-weight: 400;
-    font-family: 'Pretendard-Thin';
-    font-size: 18px;
-    line-height: 1.5;
-    font-style: italic;
-}
-
-.list_img {
-    width: 300px;
-    height: 300px;
-    display: block;
-    margin: 7vh 5vh;
-    margin-bottom: 50px;
-}
-
-.favorites {
-    display:inline-flex;
-    margin-top: 60px;
-}
-
-/* page 4 */
-
-.four {
-    text-align: center;
-    align-items: center;
-}
-
-.contact_img {
-    width: 100%;
-    height: 500px;
-    padding-bottom: 60px;
-}
-
-.ct {
-    margin-top: 80px;
-    font-family: 'Roboto Slab', serif;
-    text-decoration: none;
-    color: white;
-    font-size: 50px;
-    font-style: italic;
-    margin: 35px;
-}
-body {
-    overflow: hidden;
-    font-family: 'Roboto Slab', serif;
-}
-
-/* Scroll down */
-
-#container{
-    width:100%;
-    height:100vh; 
-    overflow: auto;
-    scroll-behavior: smooth;
-    scroll-snap-type: y mandatory;
-}
-
-.list{
-    width:100%; 
-    height:100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    scroll-snap-align: center;
-}
-
-/* .list:nth-child(1){
-    background-color: rgb(0, 0, 0);
-    background-size: cover;
-    background-attachment: fixed; 
-    background-position: center; 
-} */
-
-.list:nth-child(2){
-    background-color: #4e5a56;
-    background-size: cover;
-    background-attachment: fixed; 
-    background-position: center; 
-}
-
-.list:nth-child(3){
-    background-color: #9d949e;
-    background-size: cover;
-    background-attachment: fixed; 
-    background-position: center; 
-}
-
-.list:nth-child(4){
-    background-color: #e0d8cc;
-    background-size: cover;
-    background-attachment: fixed; 
-    background-position: center; 
-}
-
-.list:nth-child(5){
-    background-color: #8a6e8a;
-    background-size: cover;
-    background-attachment: fixed; 
-    background-position: center; 
-}
+</html>
