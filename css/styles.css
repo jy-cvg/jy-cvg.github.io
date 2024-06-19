@@ -1,143 +1,99 @@
-/* Reset some default styles */
-body, h1, h2, p, ul, li, img {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    border: 0;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:image" content="./images/profile.jpg">
+    <meta property="og:title" content="자기소개">
+    <meta property="og:description" content="소개 페이지입니다.">
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <title>김재윤의 자기소개</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <aside class="sidebar">
+            <img src="images/profile.jpg" alt="프로필 사진" class="profile-pic">
+            <h2>김재윤</h2>
+            <p>프론트엔드 개발자</p>
+            <hr>
+            <ul>
+                <li><img src="images/phone-icon.png" alt="전화 아이콘"> 010-8467-3661</li>
+                <li><img src="images/email-icon.png" alt="이메일 아이콘"> jaeyoon108@gmail.com</li>
+                <li><a href="https://yourblog.com" target="_blank"><img src="images/blog-icon.png" alt="블로그 아이콘"> 블로그</a></li>
+                <li><a href="https://github.com/yourprofile" target="_blank"><img src="images/github-icon.png" alt="깃허브 아이콘"> GitHub</a></li>
+            </ul>
+        </aside>
 
-body {
-    font-family: 'Arial', sans-serif;
-    line-height: 1.6;
-    color: #333;
-    background-color: #f4f4f4;
-    display: flex;
-    justify-content: center;
-}
+        <div class="main-content">
+            <header>
+                <h1>김재윤의 소개</h1>
+                <nav>
+                    <ul>
+                        <li><a href="#PROFILE">PROFILE</a></li>
+                        <li><a href="#EDUCATION/MILITARY">EDUCATION/MILITARY</a></li>
+                        <li><a href="#WORK EXPERIENCE">WORK EXPERIENCE</a></li>
+                        <li><a href="#SKILL">CONTACT</a></li>
+                        <li><a href="#CONTACT">CONTACT</a></li>
+                    </ul>
+                </nav>
+            </header>
 
-.container {
-    display: flex;
-    max-width: 1200px;
-    width: 100%;
-}
+            <main>
+                <section id="PROFILE" class="section">
+                    <h2>안녕하세</h2>
+                    <p>끊임없이 도전하고 변화를 통해 성장하는 김재윤입니다.
+부족한 부분은 항상 스스로 노력하여 계속해서 성장하고 있습니다.
+잘부탁드립니다:)</p>
+                </section>
 
-.sidebar {
-    width: 250px;
-    background-color: #87CEEB;
-    color: #fff;
-    padding: 1rem;
-    text-align: center;
-}
+                <section id="EDUCATION/MILITARY" class="section">
+                    <h2>EDUCATION</h2>
+                    <img src="images/profile.jpg" alt="프로필 사진">
+                    <p>2020-03 ~
+단국대학교 산업보안학과</p>
+                    <p>2017-03 ~ 2019-02
+중국 선전
+중국 유학</p>
+                    <p>2014-03 ~ 2016-02
+매탄중학</p>
+                    <p>2008-03 ~ 2013-02
+효동초등학교
+이것저것 배웠습니다.</p>
+                </section>
 
-.profile-pic {
-    border-radius: 50%;
-    width: 150px;
-    height: 150px;
-    object-fit: cover;
-    margin-bottom: 1rem;
-}
+                <section id="EDUCATION/MILITARY" class="section">
+                    <h2>MILITARY</h2>
+                    <p>2021-09 ~ 2023-06
+공군 병장 만기전역
+2021-09 ~ 2023-06 까지 국방의 의무를 다하였습니다.</p>
+                </section>
 
-.sidebar h2 {
-    font-size: 1.5rem;
-    margin-bottom: 0.5rem;
-}
+                <section id="HOBBY" class="section">
+                    <h2>목표</h2>
+                    <ul>
+                        <li>운동</li>
+                        <li>여행</li>
+                        <li>맛집 탐방</li>
+                    </ul>
+                </section>
 
-.sidebar p {
-    margin-bottom: 1rem;
-}
+                <section id="contact" class="section">
+                    <h2>연락하기</h2>
+                    <ul>
+                        <li><a href="https://www.instagram.com/yourprofile" target="_blank">Instagram</a></li>
+                        <li><a href="https://velog.io/@yourprofile" target="_blank">Velog</a></li>
+                        <li><a href="https://github.com/yourprofile" target="_blank">Github</a></li>
+                    </ul>
+                </section>
+            </main>
 
-.sidebar ul {
-    padding: 0;
-}
+            <footer>
+                <p>&copy; 2024 김재윤. All rights reserved.</p>
+            </footer>
+        </div>
+    </div>
 
-.sidebar ul li {
-    margin: 1rem 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.sidebar ul li img {
-    margin-right: 0.5rem;
-}
-
-.sidebar ul li a {
-    color: #fff;
-    text-decoration: none;
-    display: flex;
-    align-items: center;
-}
-
-.main-content {
-    flex: 1;
-    padding: 2rem;
-}
-
-header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background-color: #fff;
-    padding: 1rem 0;
-    border-bottom: 2px solid #87CEEB;
-}
-
-header h1 {
-    margin: 0;
-    font-size: 2rem;
-    color: #87CEEB;
-}
-
-nav ul {
-    display: flex;
-    justify-content: center;
-    padding: 0;
-}
-
-nav ul li {
-    margin: 0 1rem;
-}
-
-nav ul li a {
-    color: #87CEEB;
-    text-decoration: none;
-    font-size: 1.1rem;
-}
-
-.section {
-    padding: 2rem;
-    margin: 2rem 0;
-    background-color: #fff;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-.section h2 {
-    border-bottom: 2px solid #87CEEB;
-    padding-bottom: 0.5rem;
-    margin-bottom: 1rem;
-    color: #87CEEB;
-}
-
-.section p, .section ul {
-    margin: 1rem 0;
-}
-
-.section img {
-    max-width: 200px;
-    border-radius: 50%;
-    display: block;
-    margin: 1rem auto;
-}
-
-footer {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 1rem 0;
-    margin-top: 2rem;
-}
-
-footer p {
-    margin: 0;
-}
+    <script src="js/scripts.js"></script>
+</body>
+</html>
