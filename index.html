@@ -7,11 +7,33 @@
     <meta property="og:title" content="자기소개">
     <meta property="og:description" content="소개 페이지입니다.">
     <link rel="shortcut icon" href="images/favicon.ico">
-    <title>Kim, JaeYoon</title>    
+    <title>Kim, JaeYoon</title>
     <link rel="stylesheet" href="css/styles.css">
-  
-        
-    
+    <style>
+        /* 추가한 CSS 스타일 */
+        header h1 {
+            display: flex;
+            align-items: center;
+        }
+
+        header h1 small {
+            font-size: 60%;
+            margin-left: 5px;
+            color: #999;
+        }
+
+        .section {
+            display: flex;
+            justify-content: flex-start;
+            align-items: flex-start;
+            gap: 20px;
+        }
+
+        .section h2 {
+            width: 120px; /* 섹션 타이틀의 고정 너비 */
+            margin-right: 20px; /* 타이틀과 콘텐츠 사이의 간격 */
+        }
+    </style>
 </head>
 
 <body>
@@ -34,8 +56,8 @@
                 <nav>
                     <ul>
                         <li><a href="#HOME">PROFILE</a></li>
-                        <li><a href="#RESUME">EDUCATION/MILITARY</a></li>
-                        <li><a href="#PROJECTS">SKILL</a></li>
+                        <li><a href="#RESUME">EDUCATION/MILITARY</a></li> <!-- EDUCATION/MILITARY -> EDUCATION 으로 변경 -->
+                        <li><a href="#PROJECTS">SKILL</a></li> <!-- PROJECTS -> SKILL 로 변경 -->
                     </ul>
                 </nav>
             </header>
