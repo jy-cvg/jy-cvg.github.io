@@ -11,71 +11,86 @@
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <header>
-        <div class="vertical-header">
-            <h1>나의 정보</h1>
+    <div class="container">
+        <aside class="sidebar">
+            <img src="images/profile.jpg" alt="Profile Picture" class="profile-pic">
+            <h2>KIM, JAEYOON</h2>
+            <p>Front-end Developer</p>
+            <hr>
+            <ul>
+                <li><img src="images/phone-icon.png" alt="Phone Icon"> 010-8467-3661</li>
+                <li><img src="images/email-icon.png" alt="Email Icon"> jaeyoon108@gmail.com</li>
+                <li><a href="https://yourblog.com" target="_blank"><img src="images/blog-icon.png" alt="Blog Icon"> Blog</a></li>
+                <li><a href="https://github.com/yourprofile" target="_blank"><img src="images/github-icon.png" alt="GitHub Icon"> GitHub</a></li>
+            </ul>
+        </aside>
+
+        <div class="main-content">
+            <header>
+                <h1>Kim Jaeyoon's Introduction</h1>
+                <nav>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#favorite">Favorite</a></li>
+                        <li><a href="#goal">Goal</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
+            </header>
+
+            <main>
+                <section id="home" class="section">
+                    <h2>반가워요</h2>
+                    <p>안녕하세요, 김재윤입니다. 만나서 반가워요</p>
+                </section>
+
+                <section id="about" class="section">
+                    <h2>About Me</h2>
+                    <img src="images/profile.jpg" alt="Profile Picture">
+                    <p>이름: 김재윤</p>
+                    <p>생년월일: 2001.01.08</p>
+                    <p>위치: 수원</p>
+                    <p>연락처: 010-8467-3661</p>
+                    <p>이메일: jaeyoon108@gmail.com</p>
+                </section>
+
+                <section id="favorite" class="section">
+                    <h2>My Favorites</h2>
+                    <ul>
+                        <li>취미: Coding</li>
+                        <li>음식: Pizza</li>
+                        <li>동물: 강아지</li>
+                        <li>책: The Great Gatsby</li>
+                        <li>영화: Inception</li>
+                    </ul>
+                </section>
+
+                <section id="goal" class="section">
+                    <h2>My Goals</h2>
+                    <ul>
+                        <li>코딩 능력 향상</li>
+                        <li>새로운 기술 배우기</li>
+                        <li>의미 있는 프로젝트 만들기</li>
+                        <li>다른 사람들과 협업하기</li>
+                    </ul>
+                </section>
+
+                <section id="contact" class="section">
+                    <h2>Contact Me</h2>
+                    <ul>
+                        <li><a href="https://www.instagram.com/yourprofile" target="_blank">Instagram</a></li>
+                        <li><a href="https://velog.io/@yourprofile" target="_blank">Velog</a></li>
+                        <li><a href="https://github.com/yourprofile" target="_blank">Github</a></li>
+                    </ul>
+                </section>
+            </main>
+
+            <footer>
+                <p>&copy; 2024 김재윤. All rights reserved.</p>
+            </footer>
         </div>
-        <nav>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#favorite">Favorite</a></li>
-                <li><a href="#goal">Goal</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-
-    <main>
-        <section id="home" class="section">
-            <h2>반가워요</h2>
-            <p>안녕하세요, 김재윤입니다. 만나서 반가워요</p>
-        </section>
-
-        <section id="about" class="section">
-            <h2>About Me</h2>
-            <img src="images/profile.jpg" alt="Profile Picture">
-            <p>이름: 김재윤</p>
-            <p>생년월일: 2001.01.08</p>
-            <p>위치: 수원</p>
-            <p>연락처: 010-8467-3661</p>
-            <p>이메일: jaeyoon108@gmail.com</p>
-        </section>
-
-        <section id="favorite" class="section">
-            <h2>My Favorites</h2>
-            <ul>
-                <li>취미: Coding</li>
-                <li>음식: Pizza</li>
-                <li>동물: 강아지</li>
-                <li>책: The Great Gatsby</li>
-                <li>영화: Inception</li>
-            </ul>
-        </section>
-
-        <section id="goal" class="section">
-            <h2>My Goals</h2>
-            <ul>
-                <li>코딩 능력 향상</li>
-                <li>새로운 기술 배우기</li>
-                <li>의미 있는 프로젝트 만들기</li>
-                <li>다른 사람들과 협업하기</li>
-            </ul>
-        </section>
-
-        <section id="contact" class="section">
-            <h2>Contact Me</h2>
-            <ul>
-                <li><a href="https://www.instagram.com/yourprofile" target="_blank">Instagram</a></li>
-                <li><a href="https://velog.io/@yourprofile" target="_blank">Velog</a></li>
-                <li><a href="https://github.com/yourprofile" target="_blank">Github</a></li>
-            </ul>
-        </section>
-    </main>
-
-    <footer>
-        <p>&copy; 2024 김재윤. All rights reserved.</p>
-    </footer>
+    </div>
 
     <script src="js/scripts.js"></script>
 </body>
