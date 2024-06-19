@@ -5,79 +5,81 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta property="og:image" content="./images/profile.jpg">
     <meta property="og:title" content="자기소개">
-    <meta property="og:description" content="This is the introduction page for Kim Jaeyoon.">
+    <meta property="og:description" content="소개 페이지입니다.">
     <link rel="shortcut icon" href="images/favicon.ico">
-    <title>Kim Jaeyoon's Introduction</title>
+    <title>김재윤의 자기소개</title>
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
     <div class="container">
         <aside class="sidebar">
-            <img src="images/profile.jpg" alt="Profile Picture" class="profile-pic">
-            <h2>KIM, JAEYOON</h2>
-            <p>Front-end Developer</p>
+            <img src="images/profile.jpg" alt="프로필 사진" class="profile-pic">
+            <h2>김재윤</h2>
+            <p>프론트엔드 개발자</p>
             <hr>
             <ul>
-                <li><img src="images/phone-icon.png" alt="Phone Icon"> 010-8467-3661</li>
-                <li><img src="images/email-icon.png" alt="Email Icon"> jaeyoon108@gmail.com</li>
-                <li><a href="https://yourblog.com" target="_blank"><img src="images/blog-icon.png" alt="Blog Icon"> Blog</a></li>
-                <li><a href="https://github.com/yourprofile" target="_blank"><img src="images/github-icon.png" alt="GitHub Icon"> GitHub</a></li>
+                <li><img src="images/phone-icon.png" alt="전화 아이콘"> 010-8467-3661</li>
+                <li><img src="images/email-icon.png" alt="이메일 아이콘"> jaeyoon108@gmail.com</li>
+                <li><a href="https://yourblog.com" target="_blank"><img src="images/blog-icon.png" alt="블로그 아이콘"> 블로그</a></li>
+                <li><a href="https://github.com/yourprofile" target="_blank"><img src="images/github-icon.png" alt="깃허브 아이콘"> GitHub</a></li>
             </ul>
         </aside>
 
         <div class="main-content">
             <header>
-                <h1>Kim Jaeyoon's Introduction</h1>
+                <h1>김재윤의 소개</h1>
                 <nav>
                     <ul>
-                        <li><a href="#home">Home</a></li>
-                        <li><a href="#about">About</a></li>
-                        <li><a href="#favorite">Favorite</a></li>
-                        <li><a href="#goal">Goal</a></li>
-                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="#PROFILE">PROFILE</a></li>
+                        <li><a href="#EDUCATION">EDUCATION</a></li> <!-- EDUCATION/MILITARY -> EDUCATION 으로 변경 -->
+                        <li><a href="#WORK EXPERIENCE">WORK EXPERIENCE</a></li> <!-- WORK EXPERIENCE -> SKILL 로 변경 -->
+                        <li><a href="#HOBBY">HOBBY</a></li> <!-- SKILL -> HOBBY 로 변경 -->
+                        <li><a href="#CONTACT">CONTACT</a></li>
                     </ul>
                 </nav>
             </header>
 
             <main>
-                <section id="home" class="section">
-                    <h2>반가워요</h2>
-                    <p>안녕하세요, 김재윤입니다. 만나서 반가워요</p>
+                <section id="PROFILE" class="section">
+                    <h2>안녕하세요</h2>
+                    <p>끊임없이 도전하고 변화를 통해 성장하는 김재윤입니다.
+부족한 부분은 항상 스스로 노력하여 계속해서 성장하고 있습니다.
+잘부탁드립니다:)</p>
                 </section>
 
-                <section id="about" class="section">
-                    <h2>About Me</h2>
-                    <img src="images/profile.jpg" alt="Profile Picture">
-                    <p>이름: 김재윤</p>
-                    <p>생년월일: 2001.01.08</p>
-                    <p>위치: 수원</p>
-                    <p>연락처: 010-8467-3661</p>
-                    <p>이메일: jaeyoon108@gmail.com</p>
+                <section id="EDUCATION" class="section">
+                    <h2>EDUCATION</h2>
+                    <img src="images/profile.jpg" alt="프로필 사진">
+                    <p>2020-03 ~
+단국대학교 산업보안학과</p>
+                    <p>2017-03 ~ 2019-02
+중국 선전
+중국 유학</p>
+                    <p>2014-03 ~ 2016-02
+매탄중학</p>
+                    <p>2008-03 ~ 2013-02
+효동초등학교
+이것저것 배웠습니다.</p>
                 </section>
 
-                <section id="favorite" class="section">
-                    <h2>My Favorites</h2>
+                <section id="MILITARY" class="section"> <!-- 새로운 섹션으로 MILITARY 추가 -->
+                    <h2>MILITARY</h2>
+                    <p>2021-09 ~ 2023-06
+공군 병장 만기전역
+2021-09 ~ 2023-06 까지 국방의 의무를 다하였습니다.</p>
+                </section>
+
+                <section id="HOBBY" class="section">
+                    <h2>목표</h2> <!-- 목표 -> HOBBY로 변경 -->
                     <ul>
-                        <li>취미: Coding</li>
-                        <li>음식: Pizza</li>
-                        <li>동물: 강아지</li>
-                        <li>책: The Great Gatsby</li>
-                        <li>영화: Inception</li>
+                        <li>운동</li>
+                        <li>여행</li>
+                        <li>맛집 탐방</li>
                     </ul>
                 </section>
 
-                <section id="goal" class="section">
-                    <h2>My Goals</h2>
-                    <ul>
-                        <li>코딩 능력 향상</li>
-                        <li>새로운 기술 배우기</li>
-                        <li>의미 있는 프로젝트 만들기</li>
-                        <li>다른 사람들과 협업하기</li>
-                    </ul>
-                </section>
-
-                <section id="contact" class="section">
-                    <h2>Contact Me</h2>
+                <section id="CONTACT" class="section"> <!-- CONTACT로 변경 -->
+                    <h2>연락하기</h2>
                     <ul>
                         <li><a href="https://www.instagram.com/yourprofile" target="_blank">Instagram</a></li>
                         <li><a href="https://velog.io/@yourprofile" target="_blank">Velog</a></li>
