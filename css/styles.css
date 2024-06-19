@@ -11,25 +11,81 @@ body {
     line-height: 1.6;
     color: #333;
     background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    max-width: 1200px;
+    width: 100%;
+}
+
+.sidebar {
+    width: 250px;
+    background-color: #87CEEB;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+.profile-pic {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 1rem;
+}
+
+.sidebar h2 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.sidebar p {
+    margin-bottom: 1rem;
+}
+
+.sidebar ul {
+    padding: 0;
+}
+
+.sidebar ul li {
+    margin: 1rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sidebar ul li img {
+    margin-right: 0.5rem;
+}
+
+.sidebar ul li a {
+    color: #fff;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+.main-content {
+    flex: 1;
+    padding: 2rem;
 }
 
 header {
     display: flex;
     align-items: center;
-    justify-content: center;
-    background-color: #87CEEB; /* Sky blue color */
-    color: #fff;
+    justify-content: space-between;
+    background-color: #fff;
     padding: 1rem 0;
-}
-
-.vertical-header {
-    writing-mode: vertical-rl;
-    transform: rotate(180deg);
-    margin-right: 1rem;
+    border-bottom: 2px solid #87CEEB;
 }
 
 header h1 {
     margin: 0;
+    font-size: 2rem;
+    color: #87CEEB;
 }
 
 nav ul {
@@ -43,25 +99,24 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #fff;
+    color: #87CEEB;
     text-decoration: none;
     font-size: 1.1rem;
 }
 
 .section {
     padding: 2rem;
-    margin: 2rem auto;
-    max-width: 800px;
+    margin: 2rem 0;
     background-color: #fff;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .section h2 {
-    border-bottom: 2px solid #87CEEB; /* Sky blue color */
+    border-bottom: 2px solid #87CEEB;
     padding-bottom: 0.5rem;
     margin-bottom: 1rem;
-    color: #87CEEB; /* Sky blue color */
+    color: #87CEEB;
 }
 
 .section p, .section ul {
@@ -80,9 +135,7 @@ footer {
     color: #fff;
     text-align: center;
     padding: 1rem 0;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
+    margin-top: 2rem;
 }
 
 footer p {
