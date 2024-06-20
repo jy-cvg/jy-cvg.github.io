@@ -1,53 +1,57 @@
-<section id="KEYWORD" class="section">
-    <h2>KEYWORD</h2>
-    <p class="keyword">감성 열정 긍정</p>
-</section>
+.section {
+    padding: 2rem;
+    margin: 2rem 0;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
 
-<section id="HISTORY" class="section">
-    <h2>HISTORY</h2>
-    <div class="item">
-        <img src="images/2001-01.jpg" alt="위대한 여정 사진">
-        <p>2001-01 위대한 여정의 시작</p>
-    </div>
-    <div class="item">
-        <img src="images/2010-12.jpg" alt="위대한 여정 사진">
-        <p>2010-12 개발자의 꿈을 갖게 됨</p>
-    </div>
-    <!-- 나머지 HISTORY 항목들도 동일한 구조로 작성 -->
-</section>
+.section h2 {
+    border-bottom: 2px solid #87CEEB;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1rem;
+    color: #87CEEB;
+}
 
-<section id="SKILLS" class="section">
-    <h2>SKILLS</h2>
-    <ul>
-        <li>어마어마한 친화력<small>특유의 친화력과 다정한 성격으로 스치기 하면 인연</small></li>
-        <li>섬세한 관찰력<small>사람들이 가진 장점을 발견하고 이끌어내는 능력</small></li>
-        <li>뛰어난 운동 능력<small>초등학교 축구부부터 꾸준한 운동으로 다져진 실력</small></li>
-    </ul>
-</section>
+.section p {
+    margin-bottom: 1rem;
+}
 
-<section id="LIKES" class="section">
-    <h2>LIKES</h2>
-    <ul>
-        <li>음악<small>슬플 때 노래를 들어요</small></li>
-        <li>운동<small>운동 하는 게 취미</small></li>
-        <li>강아지<small>내 소중한 친구</small></li>
-        <li>콜라<small>에너지의 원천</small></li>
-    </ul>
-</section>
+.section ul {
+    list-style-type: none;
+}
 
-<section id="VISION" class="section">
-    <h2>VISION</h2>
-    <ul>
-        <li>목표<small>개발자 되기, 인공지능 기술 연구</small></li>
-        <li>이상<small>Python 깊게 공부, C언어 깊게 공부</small></li>
-    </ul>
-</section>
+.section ul li {
+    margin-bottom: 1rem;
+}
 
-<section id="CONTACT" class="section">
-    <h2>CONTACT</h2>
-    <ul>
-        <li><a href="https://www.instagram.com/k_yoon_jae" target="_blank">Instagram</a></li>
-        <li><a href="https://www.facebook.com/k_yoon_jae" target="_blank">Facebook</a></li>
-        <li><a href="https://naverblog.io/@jaeyoon108" target="_blank">Velog</a></li>
-    </ul>
-</section>
+.section ul li small {
+    color: #999;
+}
+
+.section img {
+    width: 100%;
+    height: auto;
+}
+
+.section2 .item,
+.section3 ul,
+.section4 ul,
+.section5 ul,
+.section6 ul {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.section2 .item img,
+.section3 ul li img,
+.section4 ul li img,
+.section5 ul li img,
+.section6 ul li img {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
