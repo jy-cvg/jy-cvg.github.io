@@ -1,57 +1,28 @@
-.section {
-    padding: 2rem;
-    margin: 2rem 0;
-    background-color: #fff;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
+    header h1 small {
+        font-size: 60%;
+        margin-left: 5px;
+        color: #999;
+    }
 
-.section h2 {
-    border-bottom: 2px solid #87CEEB;
-    padding-bottom: 0.5rem;
-    margin-bottom: 1rem;
-    color: #87CEEB;
-}
+    .section {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
 
-.section p {
-    margin-bottom: 1rem;
-}
+    .keyword {
+        font-size: 5rem;
+        font-weight: bold;
+    }
 
-.section ul {
-    list-style-type: none;
-}
+    .sidebar ul li img {
+        width: 30px; /* 이미지 아이콘의 너비 조정 */
+        height: 30px; /* 높이 자동 조정 */
+        margin-right: 5px;
+    }
 
-.section ul li {
-    margin-bottom: 1rem;
-}
-
-.section ul li small {
-    color: #999;
-}
-
-.section img {
-    width: 100%;
-    height: auto;
-}
-
-.section2 .item,
-.section3 ul,
-.section4 ul,
-.section5 ul,
-.section6 ul {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-}
-
-.section2 .item img,
-.section3 ul li img,
-.section4 ul li img,
-.section5 ul li img,
-.section6 ul li img {
-    width: 100%;
-    height: auto;
-    max-width: 100%;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
+    .section img{
+        width: 200px;
+        height: auto;
+    }
+</style>
