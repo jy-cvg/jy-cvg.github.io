@@ -8,10 +8,15 @@
     <meta property="og:description" content="소개 페이지입니다.">
     <link rel="shortcut icon" href="images/favicon.ico">
     <title>Kim, JaeYoon</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&display=swap">
     <link rel="stylesheet" href="css/styles.css">
     
     <style>
         /* 추가한 CSS 스타일 */
+        body {
+            font-family: 'Noto Sans KR', sans-serif;
+        }
+
         header h1 {
             display: flex;
             align-items: center;
@@ -33,21 +38,44 @@
             font-size: 5rem;
             font-weight: bold;
         }
-        .sidebar ul li img {
-            width: 30px; /* 이미지 아이콘의 너비 조정 */
-            height: auto; /* 높이 자동 조정 */
-            margin-right: 5px;
+
+        .sidebar {
+            background-color: #f0f0f0;
+            padding: 20px;
+        }
+
+        .sidebar img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin-bottom: 10px;
         }
 
         .item img {
-            width-max: 0.01%;
-            height-max: 0.01%;
+            max-width: 100%;
+            height: auto;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        ul li {
+            margin-bottom: 10px;
+        }
+
+        ul li small {
+            display: block;
+            font-size: 0.9rem;
+            color: #666;
         }
     </style>
 </head>
 <body>
     <div class="container">
         <aside class="sidebar">
+            <img src="images/profile.jpg" alt="프로필 사진">
             <h2>김재윤</h2>
             <hr>
             <ul>
@@ -146,5 +174,5 @@
             </footer>
         </div>
     </div>
-
-    <script src="js/sc
+</body>
+</html>
