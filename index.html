@@ -63,19 +63,51 @@
 
         ul li {
             margin-bottom: 10px;
+            display: flex;
+            align-items: center;
         }
 
-         ul li small {
+        ul li small {
             display: block;
             font-size: 0.9rem;
             color: #666;
             margin-left: 10px;
         }
 
-         ul li img {
-            width: 10px; /* 이미지 아이콘의 너비 조정 */
-            height: 10px; /* 이미지 아이콘의 높이 조정 */
+        /* 공통 스타일 */
+        ul li img {
             margin-right: 5px; /* 이미지와 텍스트 사이의 여백 최소화 */
+        }
+
+        /* 개별 아이콘 스타일 */
+        .phone-icon {
+            width: 15px; /* 전화 아이콘 크기 */
+            height: 15px;
+        }
+
+        .email-icon {
+            width: 15px; /* 이메일 아이콘 크기 */
+            height: 15px;
+        }
+
+        .music-icon {
+            width: 20px; /* 음악 아이콘 크기 */
+            height: 20px;
+        }
+
+        .exercise-icon {
+            width: 20px; /* 운동 아이콘 크기 */
+            height: 20px;
+        }
+
+        .puppy-icon {
+            width: 20px; /* 강아지 아이콘 크기 */
+            height: 20px;
+        }
+
+        .cola-icon {
+            width: 20px; /* 콜라 아이콘 크기 */
+            height: 20px;
         }
     </style>
 </head>
@@ -85,8 +117,8 @@
             <h2>김재윤</h2>
             <hr>
             <ul>
-                <li><img src="images/phone-icon.png" alt="전화 아이콘"> 010-8467-3661</li>
-                <li><img src="images/email-icon.png" alt="이메일 아이콘"> jaeyoon108@gmail.com</li>
+                <li><img src="images/phone-icon.png" alt="전화 아이콘" class="phone-icon"> 010-8467-3661</li>
+                <li><img src="images/email-icon.png" alt="이메일 아이콘" class="email-icon"> jaeyoon108@gmail.com</li>
             </ul>
         </aside>
 
@@ -150,10 +182,10 @@
                 <section id="LIKES" class="section">
                     <h2>LIKES</h2>
                     <ul>
-                        <li><img src="images/music-icon.png" alt="음악 아이콘">음악<small>슬플 때 노래를 들어요</small></li>
-                        <li><img src="images/exericse-icon.png" alt="운동 아이콘">운동<small>운동 하는 게 취미</small></li>
-                        <li><img src="images/puppy-icon.png" alt="강아지 아이콘">강아지<small>내 소중한 친구</small></li>
-                        <li><img src="images/cola-icon.png" alt="콜라 아이콘">콜라<small>에너지의 원천</small></li>
+                        <li><img src="images/music-icon.png" alt="음악 아이콘" class="music-icon">음악<small>슬플 때 노래를 들어요</small></li>
+                        <li><img src="images/exericse-icon.png" alt="운동 아이콘" class="exercise-icon">운동<small>운동 하는 게 취미</small></li>
+                        <li><img src="images/puppy-icon.png" alt="강아지 아이콘" class="puppy-icon">강아지<small>내 소중한 친구</small></li>
+                        <li><img src="images/cola-icon.png" alt="콜라 아이콘" class="cola-icon">콜라<small>에너지의 원천</small></li>
                     </ul>
                 </section>
 
