@@ -9,6 +9,8 @@
     <link rel="shortcut icon" href="images/favicon.ico">
     <title>Kim, JaeYoon</title>
     <link rel="stylesheet" href="css/styles.css">
+    <!-- Font Awesome 추가 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-EXAMPLE-HASH" crossorigin="anonymous" />
     <style>
         /* 추가한 CSS 스타일 */
         header h1 {
@@ -27,9 +29,15 @@
             flex-direction: column;
             gap: 20px;
         }
+
         .keyword {
-            font-size: 5rem; 
+            font-size: 1.5rem;
             font-weight: bold;
+        }
+
+        /* 아이콘과 텍스트 사이 간격 조정 */
+        .sidebar ul li i {
+            margin-right: 5px;
         }
     </style>
 </head>
@@ -39,8 +47,8 @@
             <h2>김재윤</h2>
             <hr>
             <ul>
-                <li>010-8467-3661</li>
-                <li>jaeyoon108@gmail.com</li>
+                <li><i class="fas fa-phone-alt"></i> 010-8467-3661</li>
+                <li><i class="fas fa-envelope"></i> jaeyoon108@gmail.com</li>
             </ul>
         </aside>
 
@@ -61,7 +69,8 @@
             <main>
                 <section id="KEYWORD" class="section">
                     <h2>KEYWORD</h2>
-                    <p>감성 열정 긍정</p>
+                    <p class="keyword">감성 열정 긍정</p>
+                    <img src="images/profile.jpg" alt="프로필 사진">
                 </section>
 
                 <section id="HISTORY" class="section">
