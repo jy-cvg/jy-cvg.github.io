@@ -131,28 +131,6 @@ nav ul li a:hover {
     height: auto;
 }
 
-.section2 .item,
-.section3 ul,
-.section4 ul,
-.section5 ul,
-.section6 ul {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-}
-
-.section2 .item img,
-.section3 ul li img,
-.section4 ul li img,
-.section5 ul li img,
-.section6 ul li img {
-    width: 100%;
-    height: auto;
-    max-width: 100%;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
 footer {
     background-color: #333;
     color: #fff;
