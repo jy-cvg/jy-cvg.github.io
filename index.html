@@ -74,52 +74,18 @@
             margin-left: 10px;
         }
 
-        /* 개별 아이콘 스타일 */
-        .phone-icon {
-            width: 15px; /* 전화 아이콘 크기 */
+        /* 공통 아이콘 스타일 */
+        .icon {
+            width: 15px; /* 모든 아이콘 크기 */
             height: 15px;
             margin-right: 5px; /* 이미지와 텍스트 사이의 여백 최소화 */
         }
 
-        .email-icon {
-            width: 15px; /* 이메일 아이콘 크기 */
-            height: 15px;
-            margin-right: 5px; /* 이미지와 텍스트 사이의 여백 최소화 */
-        }
-
-        .music-icon {
-            width: 15px; /* 음악 아이콘 크기 */
-            height: 15px;
-            margin-right: 5px; /* 이미지와 텍스트 사이의 여백 최소화 */
-        }
-
-        .exercise-icon {
-            width: 15px; /* 운동 아이콘 크기 */
-            height: 15px;
-            margin-right: 5px; /* 이미지와 텍스트 사이의 여백 최소화 */
-        }
-
-        .puppy-icon {
-            width: 15px; /* 강아지 아이콘 크기 */
-            height: 15px;
-            margin-right: 5px; /* 이미지와 텍스트 사이의 여백 최소화 */
-        }
-
-        .cola-icon {
-            width: 15px; /* 콜라 아이콘 크기 */
-            height: 15px;
-            margin-right: 5px; /* 이미지와 텍스트 사이의 여백 최소화 */
-        }
-
+        /* 비디오 스타일 */
         .video-container {
             display: flex;
             justify-content: center;
             margin-top: 20px;
-        }
-
-        .video-container iframe {
-            width: 560px;
-            height: 315px;
         }
     </style>
 </head>
@@ -129,8 +95,8 @@
             <h2>김재윤</h2>
             <hr>
             <ul>
-                <li><img src="images/phone-icon.png" alt="전화 아이콘" class="phone-icon"> 010-8467-3661</li>
-                <li><img src="images/email-icon.png" alt="이메일 아이콘" class="email-icon"> jaeyoon108@gmail.com</li>
+                <li><img src="images/phone-icon.png" alt="전화 아이콘" class="icon"> 010-8467-3661</li>
+                <li><img src="images/email-icon.png" alt="이메일 아이콘" class="icon"> jaeyoon108@gmail.com</li>
             </ul>
         </aside>
 
@@ -153,6 +119,8 @@
                     <h2>KEYWORD</h2>
                     <p class="keyword">감성 열정 긍정</p>
                 </section>
+
+                
 
                 <section id="HISTORY" class="section">
                     <h2>HISTORY</h2>
@@ -194,10 +162,10 @@
                 <section id="LIKES" class="section">
                     <h2>LIKES</h2>
                     <ul>
-                        <li><img src="images/music-icon.png" alt="음악 아이콘" class="music-icon">음악<small>슬플 때 노래를 들어요</small></li>
+                        <li><img src="images/music-icon.png" alt="음악 아이콘" class="icon">음악<small>슬플 때 노래를 들어요</small></li>
                         <li>운동<small>운동 하는 게 취미</small></li>
                         <li>강아지<small>내 소중한 친구</small></li>
-                        <li><img src="images/cola-icon.png" alt="콜라 아이콘" class="cola-icon">콜라<small>에너지의 원천</small></li>
+                        <li><img src="images/cola-icon.png" alt="콜라 아이콘" class="icon">콜라<small>에너지의 원천</small></li>
                     </ul>
                 </section>
 
@@ -210,3 +178,23 @@
                 </section>
 
                 <section class="video-container">
+                    <iframe width="560" height="https://www.youtube.com/watch?v=nv9WwHpOKEg&ab_channel=TED" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </section>
+                
+                <section id="CONTACT" class="section">
+                    <h2>CONTACT</h2>
+                    <ul>
+                        <li><a href="https://www.instagram.com/k_yoon_jae" target="_blank">Instagram</a></li>
+                        <li><a href="https://www.facebook.com/k_yoon_jae" target="_blank">Facebook</a></li>
+                        <li><a href="https://naverblog.io/@jaeyoon108" target="_blank">Velog</a></li>
+                    </ul>
+                </section>
+            </main>
+
+            <footer>
+                <p>&copy; 2024 김재윤. All rights reserved.</p>
+            </footer>
+        </div>
+    </div>
+</body>
+</html>
